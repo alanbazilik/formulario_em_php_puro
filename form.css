@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(0, #1ea5f3, #1ea5f3);
+;    display: block;
+      margin: 8px;
+}
+
+
+.form_cd{
+    border-style: solid;
+    width:100%;
+    max-width:300px ;
+    padding: 10px;
+    background-color: silver;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%; 
+    position: absolute;
+    text-transform: center ;
+ }
+
+ form input[type="text"]{font: 15px/24px 'Muli', sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px; padding: 2px ;}
+
+ :focus{outline: none;}
+ 
+ .col-3{float: left; width: 27.33%; margin: 25px 3%; position: relative;} /* necessary to give position: relative to parent. */
+ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px; padding: 5px ;}
+ 
+ .effect-1, 
+ .effect-2, 
+ .effect-3{border: 0; padding: 8px 0; border-bottom: 1px solid #ccc;}
+
+ form input[type="email"]{font: 15px/24px 'Muli', sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;  margin-top: 10px;}
+
+ :focus{outline: none; padding: 5px ;}
+ 
+ .col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;   margin-top: 10px;}
+ 
+ .effect-1, 
+ .effect-2, 
+ .effect-3{border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;}
+
+ form input[type="password"]{font: 15px/24px 'Muli', sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;   margin-top: 10px;}
+
+ :focus{outline: none;}
+ 
+ .col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+ 
+ .effect-1, 
+ .effect-2, 
+ .effect-3{border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;}
+
+ form input[type="submit"]{
+    width: 255px;
+    padding: 5px ;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    left: 5%; 
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    border: 0cm;
+    background-color: greenyellow;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+ }
+ form input[type="submit"]:active{
+   width: 255px;
+   padding: 5px ;
+   margin-top: 10px;
+   outline: 0;
+   cursor: pointer;
+   left: 5%; 
+   position: relative;
+   border-radius: 20px 20px 20px 20px;
+   border: 0cm;
+   background-color: greenyellow;
+   opacity: 75%;
+   color: white;
+   text-shadow: 2px 2px 4px #000000;
+}
+
+h1{
+   font-size: 15px;
+   text-align: center;
+}
