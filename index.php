@@ -1,5 +1,6 @@
 
 <?php
+include('Form.php');
 
 include('config.php');
 MYSQL::conectar();
@@ -22,7 +23,7 @@ MYSQL::conectar();
         if(isset($_POST['acao']) && $_POST['form'] == 'f_form'){
             $Nome = $_POST['Nome'];
             $Email = $_POST['Email'];
-            $senha = $_POST['senha'];
+            $senha = $_POST['Senha'];
 
             if ($Nome == '') {
                 form::alert('erro','O Nome ficou vazio!');
@@ -42,7 +43,7 @@ MYSQL::conectar();
     <form method="POST">
         <div><input type="text" name="Nome" placeholder="Nome"required ></div>
         <div><input type="email" name="Email" placeholder="Email" required></div>
-        <div><input type="password" name="senha" placeholder="senha" required></div>
+        <div><input type="password" name="Senha" placeholder="senha" required></div>
         <div><input type="submit" name="acao" value="Cadastrar"></div>
         <div><input type="hidden" name="form" value="f_form"></div>
     </form>
